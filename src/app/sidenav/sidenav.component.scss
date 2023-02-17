@@ -1,0 +1,20 @@
+@import '../../styles.scss';
+@import '../../fonts.scss';
+
+.enlaces{
+
+    display: inline;
+    text-align: center;
+    a {
+        text-decoration: none;
+        font-family: $titleMenuFont;
+        font-size: 20px;
+        color: #ffffff;
+        display: list-item;
+        padding: 15px;
+    }
+}
+
+.todo{
+    background-color: map-get($ExamProyect-primary, 500);
+}

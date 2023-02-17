@@ -1,0 +1,62 @@
+@import '../../styles.scss';
+@import '../../fonts.scss';
+
+@media screen and (min-width: 900px) {
+    nav {
+        display: flex;
+
+        button {
+            display: none;
+        }
+
+        .mat-toolbar {
+            background-color: map-get($ExamProyect-primary, 500);
+        }
+
+        a {
+            text-decoration: none;
+            font-family: $titleMenuFont;
+            font-size: 20px;
+            color: #FFFFFF;
+            display: inline;
+            padding: 15px;
+        }
+
+        h1{
+            font-family: $titleMenuFont;
+            font-size: 40px;
+            color: #FFFFFF;
+            padding-right: 80px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: flex;
+
+        .logo{
+            width: 100%;
+        }
+
+        h1{
+            font-family: $titleMenuFont;
+            font-size: 40px;
+            color: #FFFFFF;
+            padding-right: 80px;
+        }
+
+        button {
+            background-color: map-get($ExamProyect-primary, 500);
+            color: #FFFFFF;
+        }
+
+        .mat-toolbar {
+            background-color: map-get($ExamProyect-primary, 500);
+        }
+
+        .enlaces {
+            display: none;
+        }
+    }
+}

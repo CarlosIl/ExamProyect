@@ -1,0 +1,53 @@
+@import '../../styles.scss';
+@import '../../fonts.scss';
+
+@media screen and (min-width: 900px) {
+    .container{
+        align-content: center;
+        margin: auto;
+        width: 70%;
+        video{
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        h2{
+            font-family: $titulosContentFont;
+            font-size: 20px;
+        }
+        p{
+            font-family: $titulosContentFont;
+            font-size: 15px;
+            padding-bottom: 20px;
+        }
+        .accordion{
+            width: 100%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .container{
+        align-content: center;
+        margin: auto;
+        width: 90%;
+        video{
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        h2{
+            font-family: $titulosContentFont;
+            font-size: 20px;
+        }
+        p{
+            font-family: $titulosContentFont;
+            font-size: 15px;
+            padding-bottom: 20px;
+        }
+        .accordion{
+            width: 100%;
+        }
+    }
+}

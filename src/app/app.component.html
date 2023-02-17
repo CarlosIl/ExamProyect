@@ -1,0 +1,14 @@
+<!-- <mat-drawer-container class="example-container" autosize>
+    <mat-drawer *ngIf="valorFinal==true" #sidenav mode="side" opened>
+        <div class="enlaces">
+            <a routerLink="home" routerLinkActive="active-link">HOME</a>
+            <a routerLink="gallery" routerLinkActive="active-link">PICTURES</a>
+        </div>
+    </mat-drawer>
+    <mat-drawer-content> -->        
+        <app-menu (enviar)="actualizar($event)"></app-menu>
+        <app-sidenav *ngIf="valorFinal==true"></app-sidenav>
+        <router-outlet></router-outlet>
+        <app-footer></app-footer>
+    <!-- </mat-drawer-content>
+</mat-drawer-container> -->

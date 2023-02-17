@@ -1,0 +1,21 @@
+@import '../styles.scss';
+@import '../fonts.scss';
+
+mat-drawer-content{
+    background-color: #dcdcdc; 
+}
+
+.mat-drawer{
+    background-color: map-get($ExamProyect-primary,700);
+    .enlaces{
+        display: inline;
+        a {
+            text-decoration: none;
+            font-family: $titleMenuFont;
+            font-size: 20px;
+            color: map-get($ExamProyect-accent , 200);
+            display: list-item;
+            padding: 15px;
+        }
+    }
+}

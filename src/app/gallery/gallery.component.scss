@@ -1,0 +1,25 @@
+@import '../../styles.scss';
+@import '../../fonts.scss';
+
+@media screen and (min-width: 900px) {   
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        div{
+            width: 90%;
+            padding: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {   
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        div{
+            width: 90%;
+            padding: 20px;
+            padding-right: 0px;
+        }
+    }
+}
